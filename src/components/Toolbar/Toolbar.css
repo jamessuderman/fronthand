@@ -1,0 +1,6 @@
+.header i {
+  font-size: 1.5em;
+  padding: 5px 0 0 10px;
+  color: var(--dark-color);
+  cursor: pointer;
+}

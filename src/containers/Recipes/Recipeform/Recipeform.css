@@ -1,0 +1,17 @@
+.Recipeform {
+  margin: 10px;
+  width: 100%;
+}
+
+#recipeName, #cuisineName {
+  width: 1000px;
+  outline: 0;
+  box-shadow: none;
+}
+
+#recipeName:focus, #cuisineName:focus {
+  width: 1000px;
+  outline: 0;
+  box-shadow: none;
+  border: 0;
+}

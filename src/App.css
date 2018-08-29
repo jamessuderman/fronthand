@@ -1,0 +1,45 @@
+:root {
+  --main-color: #d2c655;
+  --secondary-color: #c4c688;
+  --dark-color: #363636;
+}
+
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 250px auto;
+  grid-template-rows: 40px auto;
+  grid-template-areas:
+          "m h"
+          "m c";
+}
+
+.header {
+  background-color: var(--main-color);
+  color: white;
+  grid-area: h;
+}
+
+.sidebar {
+  background-color: var(--dark-color);
+  height: 100%;
+  color: white;
+  grid-area: m;
+}
+
+.content {
+  background-color: var(--grey-color);
+  overflow: scroll;
+  color: white;
+  grid-area: c;
+}
+
+.cell {
+  background-color: var(--secondary-color);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}

@@ -1,0 +1,9 @@
+.Recipes {
+  padding: 15px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus,
+.btn-outline-dark.active.focus, .btn-outline-dark.active:focus, .btn-outline-dark.focus, .btn-outline-dark:active.focus, .btn-outline-dark:active:focus, .btn-outline-dark:focus {
+  outline: 0;
+  box-shadow: none;
+}

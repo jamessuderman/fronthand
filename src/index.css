@@ -1,0 +1,10 @@
+:root {
+  --grey-color: #4a4945;
+}
+
+body {
+  background-color: var(--grey-color);
+  margin: 0;
+  padding: 0;
+  font-family: 'Pathway Gothic One', sans-serif;
+}

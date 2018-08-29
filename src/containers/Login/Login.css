@@ -1,0 +1,22 @@
+.Login {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 400px 600px repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.logoBox {
+    background-color: var(--main-color);
+    color: white;
+    height: 400px;
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
+
+.formBox {
+    background-color: var(--secondary-color);
+    color: white;
+    height: 400px;
+    grid-column: 4 / 5;
+    grid-row: 2;
+}
