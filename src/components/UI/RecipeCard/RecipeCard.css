@@ -1,6 +1,6 @@
 .recipecard {
-  background-color: white;
-  color: var(--dark-color);
+  background-color: var(--secondary-color);
+  color: var(--grey-color);
   width: 300px;
   height: 400px;
   margin: 10px;
@@ -14,7 +14,7 @@
 }
 
 .recipecard h4 {
-  padding: 0 0 0 5px;
+  padding: 5px 0 0 5px;
   margin: 0;
 }
 

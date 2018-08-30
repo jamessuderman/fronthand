@@ -42,12 +42,9 @@
   cursor: pointer;
 }
 
-a:visited {
-  color: white;
-}
-
-a:hover, a:-webkit-any-link:hover {
+a, a:hover, a:-webkit-any-link:hover, a:visited {
   text-decoration: none;
+  color: white;
 }
 
 .listitem span {

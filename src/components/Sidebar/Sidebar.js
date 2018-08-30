@@ -7,7 +7,7 @@ const Sidebar = (props) => {
   return(
     <div className="sidedrawer">
       <div className="logobar">
-        <Link to="/application"><i className="fa fa-cutlery"/><span>On Hand</span></Link>
+        <Link to="/"><i className="fa fa-cutlery"/><span>On Hand</span></Link>
       </div>
 
       <div className="profile">
