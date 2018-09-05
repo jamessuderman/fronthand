@@ -5,6 +5,11 @@
     grid-template-rows: repeat(3, 1fr);
 }
 
+.Login span {
+  padding: 0 10px;
+  transform: translateY(1px);
+}
+
 .logoBox {
     background-color: var(--main-color);
     color: white;
@@ -35,8 +40,8 @@ a, a:hover, a:-webkit-any-link:hover {
 
 .formGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .loginFormButtonGroup, .loginFormButtonGroup label {
@@ -46,4 +51,30 @@ a, a:hover, a:-webkit-any-link:hover {
 
 .loginFormButtonGroup .btn {
     border-radius: 0;
+}
+
+.signInButton {
+  width: 100px;
+}
+
+.headerButton {
+  width: 50%;
+}
+
+.inputRow {
+  margin: 20px;
+  width: 60%;
+  border-bottom: 2px solid var(--dark-color);
+}
+
+.inputRow input {
+  width: 200px;
+  background-color: transparent;
+  border: none;
+}
+
+.inputRow input:focus {
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
